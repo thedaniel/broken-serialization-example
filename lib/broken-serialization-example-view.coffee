@@ -17,7 +17,7 @@ class BrokenSerializationExampleView
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
-    log "serializing BrokenSerializationExampleView"
+    console.log "serializing BrokenSerializationExampleView"
 
   # Tear down any state and detach
   destroy: ->
