@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle broken-serialization-example'
+      'command': 'broken-serialization-example:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'broken-serialization-example'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'broken-serialization-example:toggle'
+        }
+      ]
+    ]
+  }
+]
